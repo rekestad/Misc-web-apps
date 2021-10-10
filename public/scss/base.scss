@@ -1,0 +1,25 @@
+$bootstrapColor_danger: #dc3545;
+
+.todo-item {
+    .todo-deadline,
+    .todo-is-urgent {
+        color: $bootstrapColor_danger;
+    }
+    a {
+        color: black;
+    }
+    .todo-check-mark {
+        display: none !important;
+    }
+}
+
+.todo-item-checked {
+    a,
+    .todo-deadline,
+    .todo-is-urgent,
+    .todo-priority-order {
+        color: silver !important;
+        text-decoration: line-through !important;
+    }
+}
+

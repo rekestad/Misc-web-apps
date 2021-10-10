@@ -1,0 +1,20 @@
+.todo-item .todo-deadline,
+.todo-item .todo-is-urgent {
+  color: #dc3545;
+}
+.todo-item a {
+  color: black;
+}
+.todo-item .todo-check-mark {
+  display: none !important;
+}
+
+.todo-item-checked a,
+.todo-item-checked .todo-deadline,
+.todo-item-checked .todo-is-urgent,
+.todo-item-checked .todo-priority-order {
+  color: silver !important;
+  text-decoration: line-through !important;
+}
+
+/*# sourceMappingURL=base.css.map */
