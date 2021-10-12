@@ -14,16 +14,4 @@ class AdminApp extends Model
             ->orderBy('sort_order')
             ->get();
     }
-
-    /*public static function getCurrentApp() {
-
-        $appId = (
-            (\Request::is('foodPlanner*') ? 2 : null) ??
-            (\Request::is('lifeManager*') ? 3 : null) ??
-            (\Request::is('singAlong*') ? 4 : null) ??
-            1 // default app
-        );
-
-        return AdminApp::where('id',$appId)->first();
-    }*/
 }
